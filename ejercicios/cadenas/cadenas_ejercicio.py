@@ -41,7 +41,7 @@ def test(got, expected):
     prefix = ' OK '
   else:
     prefix = '  X '
-    print('%s salida real: %s esperado: %s' % (prefix, repr(got), repr(expected)))
+  print('%s salida real: %s esperado: %s' % (prefix, repr(got), repr(expected)))
 
 
 print('donuts')
