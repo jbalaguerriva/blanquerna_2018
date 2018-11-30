@@ -23,10 +23,10 @@ def main():
 
     # OJO !!!
 
-    i = 0
+#    i = 0
 
-    while i < len(a):
-        print(a[i])
+#    while i < len(a):
+#        print(a[i])
 
 
 main()
