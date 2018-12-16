@@ -11,3 +11,9 @@ Si en algún momento os perdéis en el laberinto Google y no encontráis vuestro
 ## 0 - Cadenas y funciones
 
 https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/master/ejercicios/colab/00_Cadenas_y_funciones.ipynb
+
+
+## 1 - Listas y bucles
+
+https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/master/ejercicios/colab/01_Listas_For_y_While.ipynb
+
