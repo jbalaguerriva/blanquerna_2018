@@ -17,3 +17,7 @@ https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/mas
 
 https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/master/ejercicios/colab/01_Listas_For_y_While.ipynb
 
+## 2 - Diccionarios
+
+https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/master/ejercicios/colab/02_Diccionarios.ipynb
+
