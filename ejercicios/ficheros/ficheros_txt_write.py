@@ -1,3 +1,7 @@
+# https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+# https://docs.python.org/3/library/stdtypes.html#string-methods
+# https://docs.python.org/3/library/pprint.html
+
 import pprint
 
 FILE_IN_NAME = "data/alice_in_wonderland.txt"

@@ -1,4 +1,11 @@
-from collections import OrderedDict
+# https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+# https://docs.python.org/3/library/stdtypes.html#string-methods
+# https://docs.python.org/3/library/pprint.html
+# https://docs.python.org/3/library/re.html
+# https://docs.python.org/3/howto/sorting.html
+# https://www.nltk.org/
+# https://www.clips.uantwerpen.be/pattern
+
 import pprint
 import re
 
