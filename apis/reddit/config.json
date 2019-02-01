@@ -1,0 +1,8 @@
+{
+  "app_name": "YOUR_APP_NAME",
+  "client_id": "YOUR_CLIENT_ID",
+  "client_secret": "YOUR_CLIENT_SECRET",
+  "user_name": "YOUR_USERNAME",
+  "user_password": "YOUR_PASSWORD",
+  "search_limit": -1
+}
