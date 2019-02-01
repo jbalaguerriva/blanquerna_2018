@@ -1,6 +1,7 @@
 import json
 import pprint
 # https://praw.readthedocs.io/en/latest/
+# get api data creating an app here: https://www.reddit.com/prefs/apps
 import praw
 import datetime
 # from lib import submission_to_dict, insert_batch_es

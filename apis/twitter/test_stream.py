@@ -1,4 +1,6 @@
 # https://tweepy.readthedocs.io/en/v3.5.0/streaming_how_to.html
+# https://developer.twitter.com/en/docs/tweets/filter-realtime/api-reference/post-statuses-filter.html
+# https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
@@ -20,6 +22,7 @@ class StdOutListener(StreamListener):
     This is a basic listener that just prints received tweets to stdout.
     """
     def on_data(self, data):
+        print("=======================================================================================================")
         pprint.pprint(json.loads(data))
         return True
 
@@ -27,9 +30,8 @@ class StdOutListener(StreamListener):
         print(status)
 
 if __name__ == '__main__':
-    l = StdOutListener()
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
 
-    stream = Stream(auth, l)
+    stream = Stream(auth, StdOutListener())
     stream.filter(track=['vox'])
