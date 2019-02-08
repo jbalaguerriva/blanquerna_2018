@@ -13,17 +13,19 @@ page = requests.get(URL)
 soup = BeautifulSoup(page.content, 'html.parser')
 
 
-# pprint.pprint(soup.findAll("a"))
-#
-# for node in soup.findAll("a"):
-#     pprint.pprint(node)
-#     pprint.pprint(node.attrs)
-#     pprint.pprint(node.get("href"))
-#     print("========================")
-#
+pprint.pprint(soup.findAll("a"))
+
+for node in soup.findAll("a"):
+    pprint.pprint(node)
+    pprint.pprint(node.attrs)
+    pprint.pprint(node.get("href"))
+    print("========================")
+
+
+
+# With third wikitable
 
 my_table = soup.select("table.wikitable")[2]
-# pprint.pprint(my_table)
 
 row_number = 0
 
@@ -46,9 +48,8 @@ for row in my_table.select("tr"):
             data.append(new_row)
     row_number+=1
 
-pprint.pprint(header)
-pprint.pprint(data)
 
+# Write header + data
 
 my_file = open(FILE_OUT, "w")
 
@@ -60,10 +61,4 @@ for row in data:
     csv_writer.writerow(row)
 
 my_file.close()
-# for table in soup.selectAll("table"):
-#     pprint.pprint(table)
-#
-# print("**********************")
-#
-# pprint.pprint(soup.selectAll("table")[1])
 
