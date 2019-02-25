@@ -21,3 +21,8 @@ https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/mas
 
 https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/master/ejercicios/colab/02_Diccionarios.ipynb
 
+## Práctica Final
+
+
+https://colab.research.google.com/github/oscarmarinmiro/blanquerna_2018/blob/master/ejercicios/colab/Practica_final.ipynb
+
